@@ -6,7 +6,7 @@
   "author": "",
   "type": "module",
   "bin": {
-    "lspq": "./bin/lspq.ts"
+    "lspq": "./bin/lspq.js"
   },
   "files": [
     "bin/",
