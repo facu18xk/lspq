@@ -1,0 +1,44 @@
+{
+  "name": "lspq",
+  "version": "0.1.0",
+  "description": "CLI wrapper for LSP servers — query code definitions, references, diagnostics from the terminal",
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "bin": {
+    "lspq": "./bin/lspq.ts"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "lsp",
+    "language-server-protocol",
+    "cli",
+    "code-intelligence",
+    "typescript",
+    "go-to-definition",
+    "find-references",
+    "diagnostics"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.1",
+    "vitest": "^4.1.10"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:integration": "vitest run tests/integration.test.ts"
+  }
+}
